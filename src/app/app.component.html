@@ -6,9 +6,9 @@
         <div class="col-md-5">
           <app-recipe-list *ngIf="loadedFeature==='recipe'"></app-recipe-list>
         </div>
-        <!-- <div class="col-md-7">
-          <app-recipe-detail *ngIf="loadedFeature !== 'recipe'"></app-recipe-detail>
-        </div> -->
+        <div class="col-md-7">
+          <app-recipe-detail *ngIf="loadedFeature === 'recipe'"></app-recipe-detail>
+        </div>
       </div>
       <app-shopping-list *ngIf="loadedFeature !=='recipe'"></app-shopping-list>
     </div>
