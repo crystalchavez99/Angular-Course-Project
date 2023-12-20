@@ -4,13 +4,13 @@
     <div class="col-md-12">
       <div class="row">
         <div class="col-md-5">
-          <app-recipe-list></app-recipe-list>
+          <app-recipe-list *ngIf="loadedFeature==='recipe'"></app-recipe-list>
         </div>
-        <div class="col-md-7">
-          <app-recipe-detail></app-recipe-detail>
-        </div>
+        <!-- <div class="col-md-7">
+          <app-recipe-detail *ngIf="loadedFeature !== 'recipe'"></app-recipe-detail>
+        </div> -->
       </div>
-      <app-shopping-list></app-shopping-list>
+      <app-shopping-list *ngIf="loadedFeature !=='recipe'"></app-shopping-list>
     </div>
   </div>
 </div>
