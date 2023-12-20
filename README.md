@@ -37,3 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   * model is simply a TS file, it is a blueprint for the object we create
   * Class is instantiated in the file so we can create new objects
     * create properties and constructor
+* Added content to our components
+  * Make sure models are imported to the component.ts file so they can be used
+  * Seed models
+  * Output lists if any with ngFor
