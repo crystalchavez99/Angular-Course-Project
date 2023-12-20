@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Steps I took to Setup
+* Create the app with Angular CLI `ng new`
+* Setting up bootstrap, apply to styles in angular.json
+* Create the components, if manual create the class and component directive and import to App Module
+  * Ensure works by templating to App.HTML
+* Plan the usage of each component
+* Create the navigation bar for header component
