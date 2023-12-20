@@ -33,3 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   * Ensure works by templating to App.HTML
 * Plan the usage of each component
 * Create the navigation bar for header component
+* Create the recipe model, `recipe.model.ts`
+  * model is simply a TS file, it is a blueprint for the object we create
+  * Class is instantiated in the file so we can create new objects
+    * create properties and constructor
