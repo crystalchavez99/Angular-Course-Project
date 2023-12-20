@@ -47,3 +47,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Create Ingredients Model
   * Placed in a folder called share as it will be shared amongst other components
 * Now to create and output the shopping list within the component
+  * List ingredients
+  * Form to edit ingredients
