@@ -49,3 +49,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Now to create and output the shopping list within the component
   * List ingredients
   * Form to edit ingredients
+* Add navigation with event bind and ngif
+  * use ngIf to load one section at a time
