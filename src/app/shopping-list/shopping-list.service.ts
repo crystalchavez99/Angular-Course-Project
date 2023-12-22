@@ -14,10 +14,18 @@ export class ShoppingListService {
         return this.ingredients.slice();
     }
 
-    addIngredients(ingredient: Ingredient) {
+    addIngredient(ingredient: Ingredient) {
         // once we add new item it adds to original not new copy which not reflect with other components
         // have to inform component new data is available so we must emit
         this.ingredients.push(ingredient);
         this.ingredientsChanged.emit(this.ingredients.slice());
+      }
+
+      addIngredients(ingredients: Ingredient[]){
+        // for(let ingredient of ingredients){
+        //     this.addIngredient(ingredient)
+        // }
+        this.ingredients.push(...ingredients);
+        this.ingredientsChanged.emit(this.ingredients.slice())
       }
 }
